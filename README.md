@@ -1,6 +1,6 @@
-# app_compras_colorido
+## App de lista de compras 
 
-A new Flutter project.
+Este aplicativo permite ao usuário poder criar e gerenciar listas de compras, separando-as por categorias  
 
 ## Getting Started
 
