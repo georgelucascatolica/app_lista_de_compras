@@ -27,6 +27,9 @@ flutter run
 
 ## Prints do App
 <img src="https://github.com/user-attachments/assets/20207f09-2e5a-440f-8de7-65a28bae3732" width="50%"><img src="https://github.com/user-attachments/assets/94afe4d5-9a52-4215-b13a-e21d550e5075" width="50%">
+<img src="https://github.com/user-attachments/assets/7df3ff4d-f503-46f3-bf21-f315a694e12b" width="50%"><img src="https://github.com/user-attachments/assets/567d94f2-ef87-494d-b14a-1b6af53aa0d9" width="50%">
+<img src="https://github.com/user-attachments/assets/56892740-f59e-498c-b2f7-1ae095dc355a" width="50%">
+
 
 
 
