@@ -1,10 +1,17 @@
 ## App de lista de compras 
 
-Este aplicativo permite ao usuário poder criar e gerenciar listas de compras, separando-as por categorias  
+Este aplicativo permite ao usuário poder criar listas de compras, separando-as por categorias. Também é permitido gerenciar e alterar as listas, fazendo a exclução ou adição de itens as mesmas. 
 
-## Getting Started
+## Paleta de cores 
 
-This project is a starting point for a Flutter application.
+Abaixo, segue a paleta de cores sorteada:  
+![image](https://github.com/user-attachments/assets/d5392816-7ea0-4ddd-bf3d-33c3b49f688a)
+
+## Como importar o projeto
+
+Deve ter instalado, em sua maquina, o Android Studio ou uma IDE que seja capaz de codar em Flutter e Dart. Após isso, é necessario clonar o repositorio 
+
+
 
 A few resources to get you started if this is your first Flutter project:
 
