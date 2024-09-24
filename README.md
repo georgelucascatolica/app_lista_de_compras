@@ -26,8 +26,7 @@ flutter run
 ```
 
 ## Prints do App
-<img src="https://github.com/user-attachments/assets/20207f09-2e5a-440f-8de7-65a28bae3732" width="50%">
-<img src="https://github.com/user-attachments/assets/94afe4d5-9a52-4215-b13a-e21d550e5075" width="50%">
+<img src="https://github.com/user-attachments/assets/20207f09-2e5a-440f-8de7-65a28bae3732" width="50%"><img src="https://github.com/user-attachments/assets/94afe4d5-9a52-4215-b13a-e21d550e5075" width="50%">
 
 
 
