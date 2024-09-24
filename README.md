@@ -26,8 +26,11 @@ flutter run
 ```
 
 ## Prints do App
+<img src="https://github.com/user-attachments/assets/20207f09-2e5a-440f-8de7-65a28bae3732" width="50%">
+<img src="https://github.com/user-attachments/assets/94afe4d5-9a52-4215-b13a-e21d550e5075" width="50%">
 
-![Screenshot_20240924_200850](https://github.com/user-attachments/assets/dab28ebb-8956-4203-a1e7-501d2b8fdc38)![Screenshot_20240924_200836](https://github.com/user-attachments/assets/06909b77-8161-43eb-863f-be03edf0a2f9)![Screenshot_20240924_200813](https://github.com/user-attachments/assets/2735059a-7bfd-457f-8a35-7f86f3081448)![Screenshot_20240924_200746](https://github.com/user-attachments/assets/410595ec-84c3-4dec-8ec9-c778e2901020)![Screenshot_20240924_200649](https://github.com/user-attachments/assets/389bcabc-6cf3-454e-9e7f-b0b1289fe469)
+
+
 
 
 ## Vídeo de execução
