@@ -5,7 +5,8 @@ Este aplicativo permite ao usuário poder criar listas de compras, separando-as 
 ## Paleta de cores 
 
 Abaixo, segue a paleta de cores sorteada:  
-![image](https://github.com/user-attachments/assets/d5392816-7ea0-4ddd-bf3d-33c3b49f688a)
+![370080896-d5392816-7ea0-4ddd-bf3d-33c3b49f688a](https://github.com/user-attachments/assets/a327d4e1-6090-4978-a1f5-fd920c164b91)
+
 
 ## Como importar o projeto
 
