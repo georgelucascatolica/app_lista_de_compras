@@ -27,7 +27,8 @@ flutter run
 
 ## Prints do App
 
-![Captura de tela 2024-09-24 192018](https://github.com/user-attachments/assets/5d5c8bc9-6cce-477c-b766-e6505b0d9873) ![Captura de tela 2024-09-24 192053](https://github.com/user-attachments/assets/c653a524-bdac-4485-a1c2-e3b847cfe7d8)![Captura de tela 2024-09-24 192248](https://github.com/user-attachments/assets/7241c71d-b08d-4ebd-8b90-5a87a0759f02)![Captura de tela 2024-09-24 192304](https://github.com/user-attachments/assets/30428055-327b-4d1c-923e-907e64a666db)![Captura de tela 2024-09-24 192323](https://github.com/user-attachments/assets/1140e9ac-5a32-41d9-a6db-cb5d9cdbf356)
+![Screenshot_20240924_200850](https://github.com/user-attachments/assets/dab28ebb-8956-4203-a1e7-501d2b8fdc38)![Screenshot_20240924_200836](https://github.com/user-attachments/assets/06909b77-8161-43eb-863f-be03edf0a2f9)![Screenshot_20240924_200813](https://github.com/user-attachments/assets/2735059a-7bfd-457f-8a35-7f86f3081448)![Screenshot_20240924_200746](https://github.com/user-attachments/assets/410595ec-84c3-4dec-8ec9-c778e2901020)![Screenshot_20240924_200649](https://github.com/user-attachments/assets/389bcabc-6cf3-454e-9e7f-b0b1289fe469)
+
 
 ## Vídeo de execução
 
