@@ -1,6 +1,6 @@
 ## App de lista de compras 
 
-Este aplicativo permite ao usuário poder criar listas de compras, separando-as por categorias. Também é permitido gerenciar e alterar as listas, fazendo a exclução ou adição de itens as mesmas. 
+Este aplicativo permite ao usuário poder criar listas de compras, separando-as por categorias. Também é permitido gerenciar e alterar as listas, fazendo a exclusão ou adição de itens as mesmas. 
 
 ## Paleta de cores 
 
