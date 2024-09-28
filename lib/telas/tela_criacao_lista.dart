@@ -102,7 +102,7 @@ class _TelaCriacaoListaState extends State<TelaCriacaoLista> {
                   categoria: entry.key,
                   itens: entry.value,
                   aoRemoverItem: _removerItem,
-                  aoMarcarComprado: null, // Sem checkbox na criação
+                  aoMarcarComprado: null,
                 ))
                     .toList(),
               ),
