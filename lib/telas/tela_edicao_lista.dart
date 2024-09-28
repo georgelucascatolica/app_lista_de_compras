@@ -18,13 +18,13 @@ class _TelaEdicaoListaState extends State<TelaEdicaoLista> {
   late TextEditingController _nomeListaController;
   final TextEditingController _nomeItemController = TextEditingController();
   String _categoriaSelecionada = categoriasCompras[0];
-  late Map<String, List<ItemCompras>> itensCategoricos;
+  late Map<String, List<ItemCompras>> itensCategoria;
 
   @override
   void initState() {
     super.initState();
     _nomeListaController = TextEditingController(text: widget.listaCompras.nome);
-    itensCategoricos = {
+    itensCategoria = {
       for (var categoria in categoriasCompras)
         categoria: List.from(widget.listaCompras.itens[categoria] ?? [])
     };
@@ -34,14 +34,14 @@ class _TelaEdicaoListaState extends State<TelaEdicaoLista> {
     if (_nomeItemController.text.isEmpty) return;
     final novoItem = ItemCompras(nome: _nomeItemController.text, categoria: _categoriaSelecionada);
     setState(() {
-      itensCategoricos[_categoriaSelecionada]?.add(novoItem);
+      itensCategoria[_categoriaSelecionada]?.add(novoItem);
     });
     _nomeItemController.clear();
   }
 
   void _removerItem(String categoria, int indice) {
     setState(() {
-      itensCategoricos[categoria]?.removeAt(indice);
+      itensCategoria[categoria]?.removeAt(indice);
     });
   }
 
@@ -55,7 +55,7 @@ class _TelaEdicaoListaState extends State<TelaEdicaoLista> {
 
     final listaAtualizada = ListaCompras(
       nome: _nomeListaController.text,
-      itens: itensCategoricos,
+      itens: itensCategoria,
     );
     Navigator.of(context).pop(listaAtualizada);
   }
@@ -110,7 +110,7 @@ class _TelaEdicaoListaState extends State<TelaEdicaoLista> {
             const SizedBox(height: 16),
             Expanded(
               child: ListView(
-                children: itensCategoricos.entries
+                children: itensCategoria.entries
                     .map((entry) => SecaoCategoria(
                   categoria: entry.key,
                   itens: entry.value,

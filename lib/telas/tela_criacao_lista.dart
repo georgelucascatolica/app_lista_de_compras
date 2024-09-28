@@ -18,7 +18,7 @@ class _TelaCriacaoListaState extends State<TelaCriacaoLista> {
   final TextEditingController _nomeListaController = TextEditingController();
   final TextEditingController _nomeItemController = TextEditingController();
   String _categoriaSelecionada = categoriasCompras[0];
-  Map<String, List<ItemCompras>> itensCategoricos = {
+  Map<String, List<ItemCompras>> itensCategoria = {
     for (var categoria in categoriasCompras) categoria: []
   };
 
@@ -26,14 +26,14 @@ class _TelaCriacaoListaState extends State<TelaCriacaoLista> {
     if (_nomeItemController.text.isEmpty) return;
     final novoItem = ItemCompras(nome: _nomeItemController.text, categoria: _categoriaSelecionada);
     setState(() {
-      itensCategoricos[_categoriaSelecionada]?.add(novoItem);
+      itensCategoria[_categoriaSelecionada]?.add(novoItem);
     });
     _nomeItemController.clear();
   }
 
   void _removerItem(String categoria, int indice) {
     setState(() {
-      itensCategoricos[categoria]?.removeAt(indice);
+      itensCategoria[categoria]?.removeAt(indice);
     });
   }
 
@@ -47,7 +47,7 @@ class _TelaCriacaoListaState extends State<TelaCriacaoLista> {
 
     final novaLista = ListaCompras(
       nome: _nomeListaController.text,
-      itens: itensCategoricos,
+      itens: itensCategoria,
     );
     widget.onAddList(novaLista);
     Navigator.of(context).pop();
@@ -97,12 +97,11 @@ class _TelaCriacaoListaState extends State<TelaCriacaoLista> {
             const SizedBox(height: 16),
             Expanded(
               child: ListView(
-                children: itensCategoricos.entries
+                children: itensCategoria.entries
                     .map((entry) => SecaoCategoria(
                   categoria: entry.key,
                   itens: entry.value,
                   aoRemoverItem: _removerItem,
-                  aoMarcarComprado: null, // Sem checkbox na criação
                 ))
                     .toList(),
               ),
